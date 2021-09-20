@@ -1,4 +1,5 @@
 import React, { Component } from "react"
+import AdSense from 'react-adsense'
 
 import { styled } from '@mui/material/styles'
 import Box from '@mui/material/Box'
@@ -63,6 +64,14 @@ class Home extends Component {
 									}],
 								}}/>
 						</Item>
+					</Grid>
+					<Grid item xs={12}>
+						<AdSense.Google
+							client='ca-pub-7387137823717586'
+							slot='7806394673'
+							style={{ display: 'block' }}
+							layout='in-article'
+							format='fluid'/>
 					</Grid>
 				</Grid>
 			</Box>
